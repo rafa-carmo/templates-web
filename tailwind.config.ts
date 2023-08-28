@@ -20,6 +20,7 @@ const config: Config = {
       },
     },
   },
+  safelist: ['flex-row-reverse', 'flex-col'],
   plugins: [],
 }
 export default config
