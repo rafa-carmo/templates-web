@@ -51,26 +51,27 @@ export default function studio() {
           </div>
         </div>
       </header>
-      <main className="md:mx-auto w-full md:pl-32 flex md:flex-row flex-col md:gap-10 md:h-[90vh] pt-20 md:pt-24 pb-10 md:pb-5 items-center justify-center">
-        <div className="w-full md:w-2/5 md:h-full pt-4 pb-10 md:py-0 flex justify-center flex-col gap-10 px-5 md:px-0">
+      <main className="md:mx-auto w-full md:pl-32 flex md:flex-row flex-col md:gap-10 pt-20 md:pt-24 pb-10 md:pb-5 items-center justify-center">
+        <div className="w-full md:w-2/5 md:h-[90vh] pt-4 pb-10 md:py-0 flex justify-center flex-col gap-10 px-5 md:px-0">
           <div>
             <h1 className="uppercase md:text-6xl text-4xl font-bold font-mono">
               BRANDING
             </h1>
             <h3 className="md:text-3xl text-2xl font-mono font-medium text-zinc-800">
-              A full service design studio
+              Vamos dar Vida às Suas Ideias
             </h3>
           </div>
           <p className="text-xl md:font-normal font-medium">
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature
+          Na <strong className='font-bold'>BRANDING</strong>, acreditamos no poder da identidade visual para contar histórias únicas. 
+          <br />
+          Somos artesãos visuais dedicados a <strong className='font-bold'>moldar marcas</strong>, logos e identidades visuais que ressoam <strong className='font-bold'>autenticidade</strong> e deixam uma <strong className='font-bold'>impressão duradoura</strong>.
           </p>
 
-          <button className="px-10 py-3  bg-yellow-300 w-fit font-bold uppercase">
-            Read More
+          <button className="px-10 py-3  bg-yellow-300 hover:bg-yellow-400 transition-colors duration-500 w-fit font-bold uppercase">
+            Faça um orçamento
           </button>
         </div>
-        <div className="flex-1 bg-yellow-300 md:pl-20 md:h-full h-96 overflow-y-hidden md:w-auto w-full">
+        <div className="flex-1 bg-yellow-300 md:pl-20 md:h-[90vh] h-96 overflow-y-hidden md:w-auto w-full">
           <img
             src="/assets/agency/285396-57.avif"
             className="object-cover w-full md:w-full h-full"
@@ -92,7 +93,7 @@ export default function studio() {
           </div>
 
           <div className="z-10 absolute left-0 md:left-auto right-0 bottom-0 grid grid-cols-2 gap-2 md:gap-5">
-            <div className="md:w-52 md:h-36 bg-white/75 flex items-center justify-center p-5 md:p-10 flex-col gap-2 border border-black">
+            <div className="md:w-52 md:h-36 bg-white/75 flex items-center justify-center p-5 md:p-10 flex-col gap-2 border border-black cursor-default">
               <div className="p-4 bg-yellow-300 rounded-full">
                 <Camera className="w-5 h-5 md:w-14 md:h-14 " />
               </div>
@@ -100,13 +101,13 @@ export default function studio() {
                 Photography
               </p>
             </div>
-            <div className="md:w-52 md:h-36 bg-white/75 flex items-center justify-center p-5 md:p-10 flex-col gap-2 border border-black">
+            <div className="md:w-52 md:h-36 bg-white/75 flex items-center justify-center p-5 md:p-10 flex-col gap-2 border border-black cursor-default">
               <div className="p-4 bg-yellow-300 rounded-full">
                 <PenNib className="w-5 h-5 md:w-14 md:h-14 " />
               </div>
               <p className="uppercase font-bold md:text-base text-xs">Design</p>
             </div>
-            <div className="md:w-52 md:h-36 bg-white/75 flex items-center justify-center p-5 md:p-10 flex-col gap-2 border border-black">
+            <div className="md:w-52 md:h-36 bg-white/75 flex items-center justify-center p-5 md:p-10 flex-col gap-2 border border-black cursor-default">
               <div className="p-4 bg-yellow-300 rounded-full">
                 <Brain className="w-5 h-5 md:w-14 md:h-14 " />
               </div>
@@ -114,7 +115,7 @@ export default function studio() {
                 Creative
               </p>
             </div>
-            <div className="md:w-52 md:h-36 bg-white/75 flex items-center justify-center p-5 md:p-10 flex-col gap-2 border border-black">
+            <div className="md:w-52 md:h-36 bg-white/75 flex items-center justify-center p-5 md:p-10 flex-col gap-2 border border-black cursor-default">
               <div className="p-4 bg-yellow-300 rounded-full">
                 <Lightbulb className="w-5 h-5 md:w-14 md:h-14 " />
               </div>
@@ -161,7 +162,7 @@ export default function studio() {
         <div className=" w-full md:w-3/6 relative md:h-[30rem] bg-zinc-800 py-10 pr-5">
           <div className="md:absolute md:-right-16 md:top-0 md:bottom-0 flex md:flex-row flex-col items-center gap-16">
             <div className="flex flex-col gap-5">
-              <h3 className="font-bold text-7xl text-yellow-300">about</h3>
+              <h3 className="font-bold text-7xl text-yellow-300">Sobre nós</h3>
               <h4 className="text-white text-xl pl-2">We build brands</h4>
             </div>
             <div className="w-72 md:h-[25rem] overflow-hidden">
@@ -178,23 +179,24 @@ export default function studio() {
         </div>
         <div className="md:max-w-[20%] md:p-0 px-10 flex flex-col items-center justify-center gap-3">
           <p className="text-center">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using
+          Nosso processo criativo é uma jornada colaborativa.
+          <br />
+          Trabalhamos lado a lado com nossos clientes,
+           desde a concepção até a implementação, garantindo que cada elemento visual transmita a mensagem certa e alcance os objetivos desejados.
           </p>
           <button className="px-10 py-3 bg-yellow-300 w-fit font-bold uppercase">
-            Read More
+            Saiba Mais
           </button>
         </div>
       </section>
 
       <section className="flex flex-col items-center justify-center gap-5 pt-10">
-        <h2 className="text-6xl font-bold text-center">Identity projects</h2>
-        <p className="text-center max-w-sm md:px-0 px-2">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout.
-        </p>
+        <div className='py-5 flex flex-col items-center justify-center gap-5'>
+          <h2 className="text-6xl font-bold text-center">Destaques do Nosso Portfólio</h2>
+          <p className="text-center max-w-sm md:px-0 px-2">
+          Explore nosso portfólio e veja como transformamos conceitos em realidade visual. 
+          </p>
+        </div>
 
         <div className="md:grid md:grid-cols-3 flex flex-col gap-3 md:gap-0">
           {portfolio.map((item, key) => (
@@ -225,17 +227,16 @@ export default function studio() {
         <div className="md:pr-10 md:pl-20 relative w-full md:mb-0 mb-20">
           <div className="w-36 h-36 absolute -z-10 top-16 md:-top-16 right-0 md:right-auto md:left-40 bg-yellow-300 overflow-hidden frame"></div>
           <div className="w-full md:w-2/4 p-10 md:ml-36 mt-36 border-[6px] border-yellow-300 flex flex-col items-center justify-center gap-5 relative z-0 bg-white">
-            <h4 className="uppercase text-lg">WE CREATE BRANDS</h4>
-            <h3 className="font-bold text-5xl font-mono">Creative Design</h3>
+            <h4 className="uppercase text-lg">BLOG</h4>
+            <h3 className="font-bold text-5xl font-mono">Design em Foco</h3>
             <p>
-              Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus
-              . Phasellus sed efficitur dolor, et ultricies sapien. Quisque
-              fringilla sit amet dolor commodo efficitur. Aliquam et sem odio.
-              In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.
+            Mergulhe no mundo do design através do nosso blog.
+            <br />
+            Compartilhamos insights sobre as últimas tendências de design, casos de sucesso inspiradores e dicas práticas para aprimorar a presença visual da sua marca. 
+            Conecte-se com a comunidade criativa e aprofunde-se no design.
             </p>
             <button className="px-4 py-2 text-white bg-black">
-              learn more
+              Abrir Blog
             </button>
           </div>
         </div>
@@ -248,11 +249,10 @@ export default function studio() {
               className="border-[6px] border-yellow-300 w-96 h-64"
             />
             <p className="w-80">
-              Magna fringilla urna porttitor rhoncus dolor. Nisl rhoncus mattis
-              rhoncus urna neque viverra justo nec ultrices. Diam donec
-              adipiscing tristique risus nec feugiat. Semper auctor neque vitae
-              tempus quam pellentesque nec nam aliquam. Eget mi proin sed
-              libero.
+            Seja você uma startup ambiciosa, uma empresa consolidada ou um empreendedor visionário, 
+            estamos aqui para elevar sua marca ao próximo nível visual.
+            <br />
+            Explore nossa jornada e descubra como podemos ser sua parceira criativa na construção de uma identidade visual única e impactante.
             </p>
           </div>
           <div className="-mt-16 w-72 flex flex-col gap-5">
@@ -263,11 +263,10 @@ export default function studio() {
             />
             <h4 className="font-bold text-2xl">Our Story</h4>
             <p className="px-2">
-              but also the leap into electronic typesetting, remaining
-              essentially unchanged. It was popularised in the 1960s with the
-              release of Letraset sheets containing Lorem Ipsum passages, and
-              more recently with desktop publishing software like Aldus
-              PageMaker including versions of Lorem Ipsum.
+            A mais de 10 anos temos sido a força criativa por trás de marcas que se destacam.
+            <br />
+            O impulso inicial foi simples: criar algo extraordinário a partir de uma visão única. Ao longo dos anos, 
+            evoluímos de uma ideia para uma agência dedicada à arte de contar histórias visualmente.
             </p>
           </div>
         </div>
