@@ -19,7 +19,7 @@ export default function FoodCard({
         reverse ? 'md:flex-row-reverse' : 'md:flex-row'
       } flex-col items-center justify-center gap-5 py-32 md:px-0 px-5`}
     >
-      <div className=" w-full max-w-lg flex flex-col items-end justify-end ">
+      <div className=" w-full max-w-lg flex flex-col items-end justify-end cursor-default">
         <div className="max-w-lg text-white flex flex-col gap-5 pb-3">
           <h3 className="text-4xl  font-bold">{price}</h3>
           <h3 className="font-bold text-xl ">{name}</h3>

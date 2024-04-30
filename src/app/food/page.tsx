@@ -43,23 +43,21 @@ export default function Food() {
   return (
     <>
       <header className="left-0 right-0 flex items-center justify-end md:justify-center py-7 px-5 bg-amber-50 absolute">
-        <ul className="md:flex items-center justify-center gap-7 hidden">
-          <li className="uppercase ">Home</li>
-          <li className="uppercase ">Landing</li>
-          <li className="uppercase ">About</li>
-          <li className="uppercase ">Menu</li>
-          <li className="uppercase ">Team</li>
-          <li className="uppercase ">Contact</li>
+        <ul className="md:flex items-center justify-center gap-7 hidden cursor-pointer">
+          <li className="uppercase "><a href="#">Home</a></li>
+          <li className="uppercase "><a href="#special">Special</a></li>
+          <li className="uppercase "><a href="#menu">Menu</a></li>
+          <li className="uppercase "><a href="#contact">Contact</a></li>
         </ul>
         <button className="md:hidden block">
           <List size={30} />
         </button>
       </header>
 
-      <main className="flex h-screen w-full bg-[url('/assets/food/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg')] bg-right-top bg-no-repeat bg-cover pt-7 md:px-0 px-5">
+      <main className="flex h-screen w-full bg-[url('/assets/food/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg')] bg-right-top bg-no-repeat bg-cover pt-14 md:px-0 px-5">
         <div className="container mx-auto max-w-4xl w-full flex">
-          <div className="flex flex-col items-start justify-center w-full md:w-4/6 gap-7">
-            <div className="flex flex-col px-3 py-7 rounded-full items-center justify-center bg-lime-500 gap-3">
+          <div className="flex flex-col items-start justify-center w-full md:w-4/6 gap-7 cursor-default">
+            <div className="flex flex-col px-2 py-6 rounded-full items-center justify-center bg-lime-500 gap-3">
               <h3 className="font-bold text-center text-4xl">40%</h3>
               <p className="font-bold text-center w-3/4 text-xl">
                 Business Lunch
@@ -80,6 +78,7 @@ export default function Food() {
       </main>
 
       <PictureCard cards={cards} />
+      <section id="special">
 
       <FoodCard
         price="R$ 30"
@@ -96,8 +95,9 @@ export default function Food() {
         description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
         reverse
       />
+      </section>
 
-      <section className="container mx-auto flex flex-col items-center justify-center gap-10">
+      <section className="container mx-auto flex flex-col items-center justify-center gap-10" id="menu">
         <div className="flex flex-col items-center justify-center gap-5">
           <h2 className="text-white text-4xl text-center font-bold">
             View Our Menu
@@ -115,19 +115,20 @@ export default function Food() {
         </div>
       </section>
 
-      <section className="h-[80vh] w-full bg-[url('/assets/food/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg')] bg-left md:bg-right-top bg-no-repeat bg-cover mt-10">
-        <div className="flex h-full items-center justify-end w-full md:w-2/4">
-          <div className="flex flex-col gap-16">
-            <h3 className="text-white text-xl md:text-4xl font-bold">
+      <section className="h-[80vh] w-full bg-[url('/assets/food/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg')] bg-left md:bg-right-top bg-no-repeat bg-cover mt-10 relative">
+          <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-0' />
+        <div className="flex h-full items-center justify-center lg:justify-end w-full lg:w-2/4 lg:mx-4 relative z-10" id="contact">
+          <div className="flex flex-col gap-5 lg:gap-16 w-full max-w-lg">
+            <h3 className="text-white text-xl lg:text-4xl font-bold">
               Keep up to date with us
             </h3>
-            <div className="flex items-center gap-1 md:gap-5">
+            <div className="flex items-center gap-1 lg:gap-5 w-full">
               <input
                 type="text"
-                className="px-5 py-3 rounded-full md:text-4xl"
+                className="px-5 py-3 rounded-full lg:text-4xl flex-1"
                 placeholder="email@email.com"
               />
-              <button className="bg-green-600 md:text-lg font-bold md:px-4 md:py-5 p-3 rounded-full text-white h-full">
+              <button className="bg-green-600 lg:text-lg font-bold lg:px-4 lg:py-5 p-3 rounded-full text-white h-full">
                 Submit
               </button>
             </div>
