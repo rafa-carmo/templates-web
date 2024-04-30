@@ -5,9 +5,20 @@ import 'slick-carousel/slick/slick-theme.css'
 
 interface CarouselProps {
   settings: Settings
+  afterChange?: (indexSlide: number) => void
+  beforeChange?: (indexSlide: number) => void
   children: ReactNode
 }
 
-export default function Carousel({ settings, children }: CarouselProps) {
-  return <Slider {...settings}>{children}</Slider>
+export default function Carousel({
+  settings,
+  children,
+  afterChange,
+  beforeChange,
+}: CarouselProps) {
+  return (
+    <Slider {...settings} beforeChange={beforeChange} afterChange={afterChange}>
+      {children}
+    </Slider>
+  )
 }
