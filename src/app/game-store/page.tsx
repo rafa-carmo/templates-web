@@ -136,7 +136,7 @@ export default function GameStore() {
           ))}
         </div>
       </main>
-      <section className="w-full h-screen"></section>
+      {/* <section className="w-full h-screen"></section> */}
     </>
   )
 }

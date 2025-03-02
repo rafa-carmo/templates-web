@@ -125,10 +125,10 @@ export default function Food() {
             <div className="flex items-center gap-1 lg:gap-5 w-full">
               <input
                 type="text"
-                className="px-5 py-3 rounded-full lg:text-4xl flex-1"
+                className="px-5 py-3 rounded-full lg:text-xl flex-1"
                 placeholder="email@email.com"
               />
-              <button className="bg-green-600 lg:text-lg font-bold lg:px-4 lg:py-5 p-3 rounded-full text-white h-full">
+              <button className="bg-green-600 lg:text-lg font-bold lg:px-4 lg:py-3 p-3 rounded-full text-white h-full">
                 Submit
               </button>
             </div>
