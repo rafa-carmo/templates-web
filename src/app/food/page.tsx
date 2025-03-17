@@ -44,10 +44,18 @@ export default function Food() {
     <>
       <header className="left-0 right-0 flex items-center justify-end md:justify-center py-7 px-5 bg-amber-50 absolute">
         <ul className="md:flex items-center justify-center gap-7 hidden cursor-pointer">
-          <li className="uppercase "><a href="#">Home</a></li>
-          <li className="uppercase "><a href="#special">Special</a></li>
-          <li className="uppercase "><a href="#menu">Menu</a></li>
-          <li className="uppercase "><a href="#contact">Contact</a></li>
+          <li className="uppercase ">
+            <a href="#">Home</a>
+          </li>
+          <li className="uppercase ">
+            <a href="#special">Special</a>
+          </li>
+          <li className="uppercase ">
+            <a href="#menu">Menu</a>
+          </li>
+          <li className="uppercase ">
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
         <button className="md:hidden block">
           <List size={30} />
@@ -79,25 +87,27 @@ export default function Food() {
 
       <PictureCard cards={cards} />
       <section id="special">
+        <FoodCard
+          price="R$ 30"
+          name="Chicken"
+          image="/assets/food/aproxime-se-com-uma-deliciosa-comida-asiatica_23-2150535876.avif"
+          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+        />
 
-      <FoodCard
-        price="R$ 30"
-        name="Chicken"
-        image="/assets/food/aproxime-se-com-uma-deliciosa-comida-asiatica_23-2150535876.avif"
-        description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
-      />
-
-      <PictureCard cards={cards} hiddenText />
-      <FoodCard
-        price="R$ 45"
-        name="Steak with vegetable"
-        image="/assets/food/carne-frita-com-legumes-e-vinho-tinto_140725-4689.avif"
-        description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
-        reverse
-      />
+        <PictureCard cards={cards} hiddenText />
+        <FoodCard
+          price="R$ 45"
+          name="Steak with vegetable"
+          image="/assets/food/carne-frita-com-legumes-e-vinho-tinto_140725-4689.avif"
+          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+          reverse
+        />
       </section>
 
-      <section className="container mx-auto flex flex-col items-center justify-center gap-10" id="menu">
+      <section
+        className="container mx-auto flex flex-col items-center justify-center gap-10"
+        id="menu"
+      >
         <div className="flex flex-col items-center justify-center gap-5">
           <h2 className="text-white text-4xl text-center font-bold">
             View Our Menu
@@ -116,8 +126,11 @@ export default function Food() {
       </section>
 
       <section className="h-[80vh] w-full bg-[url('/assets/food/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg')] bg-left md:bg-right-top bg-no-repeat bg-cover mt-10 relative">
-          <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-0' />
-        <div className="flex h-full items-center justify-center lg:justify-end w-full lg:w-2/4 lg:mx-4 relative z-10" id="contact">
+        <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-0" />
+        <div
+          className="flex h-full items-center justify-center lg:justify-end w-full lg:w-2/4 lg:mx-4 relative z-10"
+          id="contact"
+        >
           <div className="flex flex-col gap-5 lg:gap-16 w-full max-w-lg">
             <h3 className="text-white text-xl lg:text-4xl font-bold">
               Keep up to date with us

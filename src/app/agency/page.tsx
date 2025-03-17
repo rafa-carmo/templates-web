@@ -62,9 +62,14 @@ export default function studio() {
             </h3>
           </div>
           <p className="text-xl md:font-normal font-medium">
-          Na <strong className='font-bold'>BRANDING</strong>, acreditamos no poder da identidade visual para contar histórias únicas. 
-          <br />
-          Somos artesãos visuais dedicados a <strong className='font-bold'>moldar marcas</strong>, logos e identidades visuais que ressoam <strong className='font-bold'>autenticidade</strong> e deixam uma <strong className='font-bold'>impressão duradoura</strong>.
+            Na <strong className="font-bold">BRANDING</strong>, acreditamos no
+            poder da identidade visual para contar histórias únicas.
+            <br />
+            Somos artesãos visuais dedicados a{' '}
+            <strong className="font-bold">moldar marcas</strong>, logos e
+            identidades visuais que ressoam{' '}
+            <strong className="font-bold">autenticidade</strong> e deixam uma{' '}
+            <strong className="font-bold">impressão duradoura</strong>.
           </p>
 
           <button className="px-10 py-3  bg-yellow-300 hover:bg-yellow-400 transition-colors duration-500 w-fit font-bold uppercase">
@@ -179,10 +184,11 @@ export default function studio() {
         </div>
         <div className="md:max-w-[20%] md:p-0 px-10 flex flex-col items-center justify-center gap-3">
           <p className="text-center">
-          Nosso processo criativo é uma jornada colaborativa.
-          <br />
-          Trabalhamos lado a lado com nossos clientes,
-           desde a concepção até a implementação, garantindo que cada elemento visual transmita a mensagem certa e alcance os objetivos desejados.
+            Nosso processo criativo é uma jornada colaborativa.
+            <br />
+            Trabalhamos lado a lado com nossos clientes, desde a concepção até a
+            implementação, garantindo que cada elemento visual transmita a
+            mensagem certa e alcance os objetivos desejados.
           </p>
           <button className="px-10 py-3 bg-yellow-300 w-fit font-bold uppercase">
             Saiba Mais
@@ -191,10 +197,13 @@ export default function studio() {
       </section>
 
       <section className="flex flex-col items-center justify-center gap-5 pt-10">
-        <div className='py-5 flex flex-col items-center justify-center gap-5'>
-          <h2 className="text-6xl font-bold text-center">Destaques do Nosso Portfólio</h2>
+        <div className="py-5 flex flex-col items-center justify-center gap-5">
+          <h2 className="text-6xl font-bold text-center">
+            Destaques do Nosso Portfólio
+          </h2>
           <p className="text-center max-w-sm md:px-0 px-2">
-          Explore nosso portfólio e veja como transformamos conceitos em realidade visual. 
+            Explore nosso portfólio e veja como transformamos conceitos em
+            realidade visual.
           </p>
         </div>
 
@@ -230,10 +239,12 @@ export default function studio() {
             <h4 className="uppercase text-lg">BLOG</h4>
             <h3 className="font-bold text-5xl font-mono">Design em Foco</h3>
             <p>
-            Mergulhe no mundo do design através do nosso blog.
-            <br />
-            Compartilhamos insights sobre as últimas tendências de design, casos de sucesso inspiradores e dicas práticas para aprimorar a presença visual da sua marca. 
-            Conecte-se com a comunidade criativa e aprofunde-se no design.
+              Mergulhe no mundo do design através do nosso blog.
+              <br />
+              Compartilhamos insights sobre as últimas tendências de design,
+              casos de sucesso inspiradores e dicas práticas para aprimorar a
+              presença visual da sua marca. Conecte-se com a comunidade criativa
+              e aprofunde-se no design.
             </p>
             <button className="px-4 py-2 text-white bg-black">
               Abrir Blog
@@ -249,10 +260,13 @@ export default function studio() {
               className="border-[6px] border-yellow-300 w-96 h-64"
             />
             <p className="w-80">
-            Seja você uma startup ambiciosa, uma empresa consolidada ou um empreendedor visionário, 
-            estamos aqui para elevar sua marca ao próximo nível visual.
-            <br />
-            Explore nossa jornada e descubra como podemos ser sua parceira criativa na construção de uma identidade visual única e impactante.
+              Seja você uma startup ambiciosa, uma empresa consolidada ou um
+              empreendedor visionário, estamos aqui para elevar sua marca ao
+              próximo nível visual.
+              <br />
+              Explore nossa jornada e descubra como podemos ser sua parceira
+              criativa na construção de uma identidade visual única e
+              impactante.
             </p>
           </div>
           <div className="-mt-16 w-72 flex flex-col gap-5">
@@ -263,10 +277,12 @@ export default function studio() {
             />
             <h4 className="font-bold text-2xl">Our Story</h4>
             <p className="px-2">
-            A mais de 10 anos temos sido a força criativa por trás de marcas que se destacam.
-            <br />
-            O impulso inicial foi simples: criar algo extraordinário a partir de uma visão única. Ao longo dos anos, 
-            evoluímos de uma ideia para uma agência dedicada à arte de contar histórias visualmente.
+              A mais de 10 anos temos sido a força criativa por trás de marcas
+              que se destacam.
+              <br />O impulso inicial foi simples: criar algo extraordinário a
+              partir de uma visão única. Ao longo dos anos, evoluímos de uma
+              ideia para uma agência dedicada à arte de contar histórias
+              visualmente.
             </p>
           </div>
         </div>
